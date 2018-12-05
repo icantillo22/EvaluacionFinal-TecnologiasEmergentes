@@ -1,3 +1,10 @@
-<p>
-  navbar works!
-</p>
+<nav>
+  <div class="nav-wrapper blue-grey lighten-5">
+    <a [routerLink]="['../home']" class="brand-logo grey-text text-darken-1">La Bodega</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a [routerLink]="['../home']"><i class="material-icons grey-text text-darken-1">apps</i></a></li>
+      <li><a [routerLink]="['../compras']"><i class="material-icons grey-text text-darken-1">shopping_cart</i></a></li>
+      <li><a [routerLink]="['']"><i class="material-icons grey-text text-darken-1">exit_to_app </i></a></li>
+    </ul>
+  </div>
+</nav>
