@@ -1,5 +1,12 @@
-.home{
-    height: 100vh;
-    width: 100wh;
-    background-image: url(/../assets/imagenesBase/main-fondo.jpg)
+.card-image > img {
+    height: 120px;
+    object-fit: cover
+}
+
+.container{
+    margin-top: 10px
+}
+
+.btn-small{
+    font-size: .65em
 }
